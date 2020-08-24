@@ -48,11 +48,11 @@ int main()
 
 		    jai.push_back(1);
 
-			for(int j=1;j<i;j++) jai.push_back(pascal[i-1][j-1] + pascal[i-1][j]); 
+		    for(int j=1;j<i;j++) jai.push_back(pascal[i-1][j-1] + pascal[i-1][j]); 
 
-			if(i>0) jai.push_back(1);
+		    if(i>0) jai.push_back(1);
 				
-			pascal.push_back(jai);
+		     pascal.push_back(jai);
 
 	}
 
