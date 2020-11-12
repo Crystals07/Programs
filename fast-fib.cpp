@@ -29,7 +29,7 @@ int main()
 long double sqt = sqrt(5);
 
 
-long double phi1 = (1+sqt)/2, phi2 = (1-sqt)/2;
+long double phi1 = (1+sqt)/2 , phi2 = (1-sqt)/2;
 
 
 long double result = ((pow(phi1,n)-pow(phi2,n))/sqt);
